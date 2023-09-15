@@ -1,0 +1,39 @@
+
+body {
+    background-image: url('avn.webp');
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Scroll or fixed as needed */
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    /* Additional background properties can be added here */
+}
+.card{
+    width: 250px;
+    height: 300px;
+    border: 1px solid gray;
+}
+.photo{
+    width: 80px;
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-first{
+    background-color: aqua;
+    color: blue;
+}
+.cart{
+    background-color: rgb(5, 33, 24);
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 50%;
+}
+.home-container{
+    display: flex;
+}
